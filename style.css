@@ -40,7 +40,7 @@ td {
     border-radius: 6px;
 }
 
-@media only screen and (max-height: 740px) {
+@media screen and (max-height: 740px) {
     .bg-color {
         margin-top: 50%;
         margin-left: 2%;
