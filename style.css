@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin-left: 25%;
+    padding-top: 3%;
+    font-size: 30pt;
+    font-family: 'Lucida Sans';
+    color: #fff;
+}
+
+table {
+    margin-left: 33%; 
+}
+
+.row {
+    margin-top: 15px;
+}
+
+th{
+    
+    background-color: #fff;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.bg-color {
+    background-color: rgb(12, 197, 230);
+    width: 450px;
+    height: 270px;
+    margin-left: 40%;
+    position: relative;
+    margin-top: 7%;
+    border-radius: 6px;
+}
+
+@media only screen and (max-height: 740px) {
+    .bg-color {
+        margin-top: 50%;
+        margin-left: 2%;
+        width: 340px;
+    }
+
+    h2 {
+        margin-left: 15%;
+    }
+
+    table {
+        margin-left: 27%;
+    }
+}
